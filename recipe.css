@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 2000px;
+    min-width: 400px;
+}
+
+#Description{
+    font-family: Copperplate, Papyrus, fantasy;
+    cursor: -webkit-grab; cursor: grab;
+    height: 450px;
+    width: 210px;
+    background-image: url("https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-5-500x375.jpg");
+    border: solid;
+    border-radius: 8px;
+   box-shadow: 5px 6px 6px black;
+   color: aliceblue;
+}
+#Description:hover{
+    width: 1490px;
+    height: 140px;
+
+}
+#Description{
+    
+    transition-property: width;
+    transition-duration: 6s;
+    
+}
+#for{
+
+    font-family: Copperplate, Papyrus, fantasy;
+    cursor: -webkit-grab; cursor: grab;
+    width: 1490px;
+    height: 140px;
+
+    background-image: url("https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-5-500x375.jpg");
+    border: solid;
+    border-radius: 8px;
+   box-shadow: 5px 6px 6px black;
+   color:aliceblue;
+   transition-property: width;
+  transition-duration: 6s;
+
+}
+ #Ingredients{
+    text-align: center;
+ }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align:left;
+    
+}
+#header{
+    max-width: 2000px;
+    min-width: 400px;
+position: fixed;
+ padding-top: 30px;
+    width: 1600px;
+    height: 80px;
+    background-color: #333;
+    color: aliceblue;
+    
+
+}
+  
+#header a{  
+    font-size: medium;
+ color: aliceblue;
+text-decoration: none;
+padding-left: 100px;
+padding-top: 30px;
+
+}
+#Descrip{
+    position: relative;
+    right: 18px;
+    padding-top: 30px;
+}
+
+#Ingredient{
+    position: relative;
+    right: 20px;
+    padding-top: 30px;
+}
+#recip{
+    position: relative;
+    right: 30px;
+    padding-top: 30px;
+}
+ol {
+    margin-left: 20px; 
+    padding-left: 20px;
+    list-style-type: decimal; 
+}
+ol{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+ul{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+h2{
+    background-color: #333;
+}
+.h2{
+    color: aliceblue;
+    width: 500px;
+    border-radius: 40px;
+    box-shadow: 4px 5px 5px black;
+}
+#emoji{
+    width: 400px;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    
+    z-index: -1;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+a{
+    
+    text-decoration: none;
+    color:aliceblue ;
+}
